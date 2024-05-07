@@ -8,8 +8,10 @@ Solidity Stacks is a curated collection of Solidity code, encompassing both lear
 
 ## Contents
 
-- **Code**: Beginner-level Solidity codes.
-- **Assignments**: Solutions for advanced Solidity assignments.
+- ## **Code**:
+### [Chapter 01: Solidity Basics](./1.%20Solidity%20Basics/) - Solidity Basics: Understanding Smart Contracts and Data Types
+### [Chapter 03: Solidity Advanced](./2.%20Solidity%20Advanced/) - Solidity Advanced: Reference Data Types and some advance concepts 
+**Assignments**: Solutions for advanced Solidity assignments.
 - **Projects**: Larger-scale Solidity projects and experiments.
 
 ## Getting Started
