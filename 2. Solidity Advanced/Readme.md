@@ -27,7 +27,7 @@ Strings in Solidity are used to store and manipulate sequences of characters. Ho
 
 Structs in Solidity allow you to define custom data types with multiple fields. They are used to group related data together.
 
-- **Declaration**: Structs are declared using the `struct` keyword followed by the name of the struct and its fields. 
+- **Declaration**: Structs are declared using the `struct` keyword followed by the name of the struct and its fields.
 - **Initialization**: Structs can be initialized using the same syntax as other variables.
 - **Accessing Fields**: Fields in a struct are accessed using dot notation. For example, `alice.name` would return `"Alice"`.
 
@@ -39,12 +39,12 @@ You can create arrays of structs to store multiple instances of structured data.
 
 Mappings in Solidity are key-value stores where keys are unique and of a fixed data type. They are often used to create associative arrays.
 
-- **Declaration**: Mappings are declared using the syntax `mapping(KeyType => ValueType) mappingName`. 
+- **Declaration**: Mappings are declared using the syntax `mapping(KeyType => ValueType) mappingName`.
 - **Initialization**: Mappings are automatically initialized with default values. For numerical types, the default value is `0`, and for reference types, it is `null`.
 - **Accessing Values**: Values in a mapping are accessed using square brackets and the key. For example, `balances[msg.sender]` would return the balance of the sender.
 - **Inserting and Updating**: To insert or update a value in a mapping, you simply assign a value to the corresponding key.
 - **Deleting**: To delete a value from a mapping, you can use the `delete` keyword.
- 
+
 #### [4.1. Mapping with Struct](./9.%20Mapping%20with%20Struct.sol)
 
 You can use structs as values in mappings, creating key-value pairs where the value is a struct.
@@ -87,7 +87,7 @@ Calldata is a special, read-only area where function arguments and external func
 Calldata exists only during the execution of a function call and is cleared after the call completes. Accessing data in calldata is cheaper than accessing data in storage.
 
 Understanding data locations is essential for writing efficient and secure Solidity contracts. By choosing the appropriate data location for variables, developers can optimize gas costs and prevent unintended state modifications.
- 
+
 ### [Memory vs Calldata](./2.%20Memory%20vs%20CallData.sol)
 
 - **Memory**: Used for data that is temporary and only exists during execution.
@@ -98,8 +98,7 @@ Understanding data locations is essential for writing efficient and secure Solid
 - **Memory**: Temporary storage used for function parameters and local variables.
 - **Storage**: Persistent storage used for state variables. Changes are permanently recorded on the blockchain
 
-
-## Global Variables
+## [Global Variables](./12.%20Global%20Variables.sol)
 
 Solidity provides several built-in global variables that provide information about the blockchain and the current transaction.
 
@@ -115,8 +114,7 @@ Solidity provides several built-in global variables that provide information abo
   - `tx.gasprice`: Gas price specified by the sender of the transaction.
   - `tx.gas`: Gas limit specified by the sender of the transaction.
 
-
-## Payable Functions
+## [Payable Functions](./13.%20Payable%20Modifier.sol)
 
 In Solidity, the `payable` keyword is used to mark functions that are capable of receiving Ether along with a function call. These functions can accept Ether transfers as part of the transaction execution.
 
@@ -124,6 +122,3 @@ In Solidity, the `payable` keyword is used to mark functions that are capable of
 - **Ether Transfer**: The amount of Ether received can be accessed within the function using the `msg.value` variable.
 - **Gas and Value**: When invoking a payable function, the sender can specify both Ether value and gas limit for the transaction.
 - **Fallback Function**: If a contract receives Ether without a specific function call or if the function call fails, the contract's fallback function is invoked if it is defined. This fallback function can be marked as payable to handle unexpected Ether transfers.
-
-
-
