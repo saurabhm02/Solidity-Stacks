@@ -6,13 +6,17 @@ Welcome to the Solidity Stacks repository!
 
 Solidity Stacks is a curated collection of Solidity code, encompassing both learning experiments and assignment solutions. It serves as a record of my progress and a reference point for future endeavors in blockchain development.
 
-## Contents
+## 📝 Contents
 
-- ## **Code**:
-### [Chapter 01: Solidity Basics](./1.%20Solidity%20Basics/) - Solidity Basics: Understanding Smart Contracts and Data Types
-### [Chapter 03: Solidity Advanced](./2.%20Solidity%20Advanced/) - Solidity Advanced: Reference Data Types and some advance concepts 
-**Assignments**: Solutions for advanced Solidity assignments.
-- **Projects**: Larger-scale Solidity projects and experiments.
+### Code:
+#### [01 Solidity Basics](./1.%20Solidity%20Basics/) 
+#### [03 Solidity Advanced](./2.%20Solidity%20Advanced/)
+
+
+### Assignments: 
+#### [01 Basic Calculator](./1.%20Basic%20Calculator/) 
+
+### Projects:
 
 ## Getting Started
 
