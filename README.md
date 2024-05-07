@@ -14,7 +14,7 @@ Solidity Stacks is a curated collection of Solidity code, encompassing both lear
 
 
 ### Assignments: 
-#### [01 Basic Calculator](./1.%20Basic%20Calculator/) 
+#### [01 Basic Calculator](./Assignments/1.%20Basic%20Calculator/) 
 
 ### Projects:
 
